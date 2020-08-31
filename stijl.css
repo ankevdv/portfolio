@@ -73,57 +73,6 @@ header.uitgeklapt {
 	height: 100vh;
 }
 
-/* HEADER
-
-header ul {
-  display: flex;
-  align-items: center;
-  margin: 0;
-  color: black;
-  height: 3rem;
-  font-size: 1.5rem;
-  position: relative;
-}
-
-#svg {
-  width: 10rem;
-  height: auto;
-  position: absolute;
-  margin-top: -3rem;
-}
-
-
-nav a {
-  text-decoration: none;
-  color: black;
-  font-weight: 400;
-  border-bottom: 0rem;
-}
-
-nav li a{
-  margin: 0 1.8rem;
-
-}
-
-nav a:hover{
-  border-bottom: .1rem solid black;
-}
-
-.geselecteerd {
-  border-bottom: .1rem solid black;
-  border-bottom: .1rem solid black;
-}
-
-li.logo {
-  margin-right: auto;
-}
-
-.logo {
-  visibility: hidden;
-}
-
-*/
-
 /* MAIN */
 
 main h1 {
@@ -247,9 +196,10 @@ h2 {
       height: 100%;
       position: relative;
       color: transparent;
-      font-size: 1.6rem;
-      align-items: center;
-      justify-content: center;
+      font-size: 2.4rem;
+      padding-top: 3rem;
+      padding-left: 3rem;
+      font-weight:700;
       position: absolute;
       top: 0px;
       bottom: 0px;
@@ -257,18 +207,48 @@ h2 {
       right: 0px;
       display: flex;
       transition-property: all;
-      transition-duration: 1s;
+      transition-duration: 0.2s;
+      line-height: 2.4rem;
+}
 
+h3 {
+  height: 100%;
+  position: relative;
+  color: transparent;
+  font-size: 1.6rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 6rem;
+  line-height: 2rem;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  display: flex;
+  transition-property: all;
+  transition-duration: 0.2s;
+}
+
+.container div:hover h2 {
+  background-color: #06B9E3;
+  color: white;
 }
 
 
+.container div:hover h3 {
+  color: white;
+}
+
+
+
+/*
 .container div:hover h2{
       background-color: rgba(0,0,0,.5);
       color: white;
-      /* background-color:rgba(255,255,255,.9);
-      color: black; */
 
 }
+*/
 
 .element-item {
   position: relative;
@@ -323,7 +303,7 @@ footer a {
 }
 
 footer a:hover {
-  color: #999999;
+  color: #B9E0E1;
 }
 
 /* MEDIA QUERIES */
