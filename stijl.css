@@ -218,7 +218,7 @@ h3 {
   font-size: 1.6rem;
   padding-left: 3rem;
   padding-right: 3rem;
-  padding-top: 6rem;
+  padding-top: 6.5rem;
   line-height: 2rem;
   position: absolute;
   top: 0px;
@@ -303,7 +303,7 @@ footer a {
 }
 
 footer a:hover {
-  color: #B9E0E1;
+  color: #06B9E3;
 }
 
 /* MEDIA QUERIES */
