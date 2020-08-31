@@ -150,6 +150,23 @@ button:active,
   color: black;
 }
 
+.button {
+  border: none;
+  font-size: 1.4rem;
+  color: #999999;
+  background-color: white;
+}
+
+button:focus {
+  outline:0;
+}
+
+button:hover {
+  color: black;
+  font-weight: bolder;
+}
+
+/*
 button {
   border: none;
   font-size: 1.4rem;
@@ -159,15 +176,13 @@ button {
   transition-duration: .5s;
 }
 
-button:hover {
-  background-color: none;
-  color: black;
-  font-weight: bolder;
-}
+
 
 button:focus {
   outline:0;
 }
+
+*/
 
 #filters {
   margin-top: 8rem;
