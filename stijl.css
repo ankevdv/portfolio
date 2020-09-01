@@ -101,9 +101,11 @@ button:active,
 
 .button {
   border: none;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   color: #999999;
   background-color: white;
+  padding-top: 1.3rem;
+  padding-right: 1rem;
 }
 
 button:focus {
@@ -136,6 +138,7 @@ button:focus {
 #filters {
   margin-top: 8rem;
   margin-bottom: 3rem;
+  margin-left: 1rem;
 }
 
 /* MAIN - GRID */
@@ -167,10 +170,10 @@ button:focus {
   background-image: url(afb/Compositie.jpg);
 }
 #vierde{
-  background-image: url(afb/jupevierkant.png);
+  background-image: url(afb/vierkantjupe2.png);
 }
 #vijfde{
-  background-image: url(afb/otomatvierkant.png);
+  background-image: url(afb/vierkantotomat2.png);
 }
 #zesde{
   background-image: url(afb/chips.png);
@@ -184,9 +187,17 @@ button:focus {
 #negende{
   background-image: url(afb/BCVF4.png);
 }
+#tiende{
+  background-image: url(afb/vierkantbase2.png);
+}
+#elfde {
+  background-image: url(afb/cmt3vierkant2.png);
+}
+#twaalfde {
+  background-image: url(afb/display.png);
+}
 
-
-#eerste, #tweede, #derde, #vierde, #vijfde, #zesde, #zevende, #achtste, #negende {
+#eerste, #tweede, #derde, #vierde, #vijfde, #zesde, #zevende, #achtste, #negende, #tiende, #elfde, #twaalfde {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
