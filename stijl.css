@@ -166,9 +166,7 @@ button:focus {
 #tweede{
   background-image: url(afb/rebrandingcloots.png);
 }
-#derde{
-  background-image: url(afb/Compositie.jpg);
-}
+
 #vierde{
   background-image: url(afb/vierkantjupe2.png);
 }
@@ -178,12 +176,7 @@ button:focus {
 #zesde{
   background-image: url(afb/chips.png);
 }
-#zevende{
-  background-image: url(afb/living.jpg);
-}
-#achtste{
-  background-image: url(afb/beursstand.jpg);
-}
+
 #negende{
   background-image: url(afb/BCVF4.png);
 }
@@ -197,7 +190,7 @@ button:focus {
   background-image: url(afb/display.png);
 }
 
-#eerste, #tweede, #derde, #vierde, #vijfde, #zesde, #zevende, #achtste, #negende, #tiende, #elfde, #twaalfde {
+#eerste, #tweede, #vierde, #vijfde, #zesde, #negende, #tiende, #elfde, #twaalfde {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
