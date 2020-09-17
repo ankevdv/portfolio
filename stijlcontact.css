@@ -78,9 +78,13 @@ main {
 h1 {
   width: auto;
   padding-top: 13rem;
-  font-size: 3rem;
-  font-weight:normal;
-  line-height: 5rem;
+  font-size: 45px;
+  margin-top: 2rem;
+  font-family: 'DM Serif Display', serif;
+}
+
+.onderlijn {
+  box-shadow: inset 0 -23px 0 #F8D1D2;
 }
 
 .sayhello, .mail {
@@ -101,6 +105,7 @@ button, input, select, textarea {
   display: block;
   margin: 0.5rem 0 1rem 0;}
 
+/*
 input {
   width: auto;
   background-color: #E8E8E8;
@@ -110,14 +115,22 @@ input {
   border-radius: .2rem;
   margin-top: 1rem;
   font-size: 15px;
-}
+} */
+
+input {
+border: solid;
+border-width: 2px;
+border-color: #06B9E3;
+border-radius: 0px;
+padding: .8rem;}
 
 label {
   font-size: 15px;
 }
 
 #doorsturen {
-  background-color: black;
+  background-color: #06B9E3;
+  border: none;
   color: white;
   width: 12rem;
   height: 4rem;
@@ -126,6 +139,16 @@ label {
   margin-top: 2rem;
   font-size: 1.3rem;
 }
+
+textarea {
+  border: solid;
+  border-width: 2px;
+  border-color: #06B9E3;
+  border-radius: 0px;
+  height: 10rem;
+}
+
+/*
 textarea {
 	display: block;
 	height: 10rem;
@@ -139,16 +162,9 @@ textarea {
   border-radius: .2rem;
   margin-top: 1rem;
   font-size: 15px;
-}
-
-select {
-	width: 6rem;
-}
+} */
 
 
-fieldset {
-	padding: 0;
-	border: none;}
 
 .sayhello {
   margin-top: 2rem;

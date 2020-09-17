@@ -1,5 +1,4 @@
 
-
 body {
   font-family: 'Poppins', sans-serif;
   /* margin-left: 6rem;
@@ -9,31 +8,30 @@ body {
 
 
 #svg {
-  width: 8rem;
+  width: 10rem;
   height: auto;
   position: absolute;
-  margin-left: 1rem;
+  margin-left: 2rem;
+  top: 0rem;
 }
 
-
 header {
-	height: 9rem;
+	height: 10rem;
 	background-color: white;
 	color: black;
 	transition-property: height;
 	transition-duration: .5s;
 	padding: 1rem 2rem;
-  padding-top: 3rem;
 	overflow: hidden;
 	font-size: 2rem;
   z-index: 3;
+
   position: fixed;
   width: 100vw;
 }
 
-
 header ul {
-	margin-top: 10rem;
+	margin-top: 13rem;
 	margin-left: 2rem;
 	margin-right: 2rem;
 }
@@ -44,6 +42,12 @@ header ul li {
 	padding-bottom: 2rem;
 }
 
+
+
+
+
+
+
 header ul li a {
 	text-decoration: none;
 	color: black;
@@ -52,7 +56,7 @@ header ul li a {
 .hamburger {
 	width: 3rem;
 	position: absolute;
-	top: 3.5rem;
+	top: 3rem;
 	right: 3.5rem;
 }
 
@@ -77,10 +81,26 @@ header.uitgeklapt {
 
 main h1 {
   padding-top: 15rem;
-  font-size: 3rem;
-  font-weight:normal;
-  line-height: 5rem;
+  font-size: 35px;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+  font-family: 'DM Serif Display', serif;
+  text-align: right;
+  line-height: 4rem;
 }
+
+.onderlijn {
+  box-shadow: inset 0 -23px 0 #F8D1D2;
+  font-size: 50px;
+}
+
+.ondertitel {
+  font-size: 35px;
+  font-family: 'DM Serif Display', serif;
+  text-align: right;
+  line-height: 4rem;
+}
+
 
 main {
   margin-left: 6rem;
@@ -117,23 +137,8 @@ button:hover {
   font-weight: bolder;
 }
 
-/*
-button {
-  border: none;
-  font-size: 1.4rem;
-  font-family: 'Manrope', sans-serif;
-  color: #999999;
-  transition-property: color;
-  transition-duration: .5s;
-}
 
 
-
-button:focus {
-  outline:0;
-}
-
-*/
 
 #filters {
   margin-top: 8rem;
@@ -245,15 +250,6 @@ h3 {
 }
 
 
-
-/*
-.container div:hover h2{
-      background-color: rgba(0,0,0,.5);
-      color: white;
-
-}
-*/
-
 .element-item {
   position: relative;
   width: 20%;
@@ -344,11 +340,10 @@ footer a:hover {
   }
 
   #svg {
-    width: 10rem;
+    width: 15rem;
     height: auto;
     position: absolute;
     margin-left: 4rem;
-    margin-top: 1.9rem;
   }
 
   header ul li a:hover{
@@ -365,36 +360,6 @@ footer a:hover {
   }
 
 }
-
-/*
-
-
-  main h1 {
-    padding-top: 0rem;
-    font-size: 3rem;
-    font-weight:normal;
-    line-height: 5rem;
-  }
-
-  main {
-    margin-left: 0rem;
-    margin-right: 0rem;
-  }
-
-  body {
-    margin-left: 6rem;
-    margin-right: 6rem;
-    margin-top: 0rem;
-  }
-
-
-
-  footer {
-    margin-left: 0rem;
-    margin-right: 0rem;
-  }
-
-} */
 
 @media(min-width: 1100px) {
 
