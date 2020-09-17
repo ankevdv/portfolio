@@ -42,12 +42,6 @@ header ul li {
 	padding-bottom: 2rem;
 }
 
-
-
-
-
-
-
 header ul li a {
 	text-decoration: none;
 	color: black;
@@ -82,7 +76,6 @@ header.uitgeklapt {
 main h1 {
   padding-top: 15rem;
   font-size: 35px;
-  margin-top: 2rem;
   margin-bottom: 1.5rem;
   font-family: 'DM Serif Display', serif;
   text-align: right;
@@ -343,7 +336,7 @@ footer a:hover {
     width: 15rem;
     height: auto;
     position: absolute;
-    margin-left: 4rem;
+    margin-left: 3rem;
   }
 
   header ul li a:hover{
@@ -351,7 +344,6 @@ footer a:hover {
   }
 
   .geselecteerd {
-    border-bottom: .1rem solid black;
     border-bottom: .1rem solid black;
   }
 
