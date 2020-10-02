@@ -6,13 +6,22 @@ body {
   margin-top: 0rem; */
 }
 
-
+/*
 #svg {
   width: 10rem;
   height: auto;
   position: absolute;
   margin-left: 2rem;
   top: 0rem;
+} */
+
+#svg {
+  position: absolute;
+  margin-left: 0rem;
+  margin-top: 1rem;
+  top: 0rem;
+  height: auto;
+  width: 20rem;
 }
 
 header {
@@ -332,12 +341,21 @@ footer a:hover {
     font-size: 1.5rem;
   }
 
+/*
   #svg {
     width: 15rem;
     height: auto;
     position: absolute;
     margin-left: 3rem;
-  }
+  } */
+
+  #svg {
+    width: 30rem;
+    height: auto;
+    position: absolute;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+}
 
   header ul li a:hover{
     border-bottom: .1rem solid black;
