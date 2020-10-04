@@ -6,32 +6,41 @@ body {
   margin-top: 0rem; */
 }
 
+/*
 #svg {
-  width: 8rem;
+  width: 10rem;
   height: auto;
   position: absolute;
-  margin-left: 1rem;
+  margin-left: 2rem;
+  top: 0rem;
+} */
+
+#svg {
+  position: absolute;
+  margin-left: 0rem;
+  margin-top: 1rem;
+  top: 0rem;
+  height: auto;
+  width: 20rem;
 }
 
-
 header {
-	height: 9rem;
+	height: 10rem;
 	background-color: white;
 	color: black;
 	transition-property: height;
 	transition-duration: .5s;
 	padding: 1rem 2rem;
-  padding-top: 3rem;
 	overflow: hidden;
 	font-size: 2rem;
   z-index: 3;
+
   position: fixed;
   width: 100vw;
 }
 
-
 header ul {
-	margin-top: 10rem;
+	margin-top: 13rem;
 	margin-left: 2rem;
 	margin-right: 2rem;
 }
@@ -50,7 +59,7 @@ header ul li a {
 .hamburger {
 	width: 3rem;
 	position: absolute;
-	top: 3.5rem;
+	top: 3rem;
 	right: 3.5rem;
 }
 
@@ -70,8 +79,6 @@ div.actief .lijn:nth-child(3){transform: translateY(-.6rem) rotate(-45deg);}
 header.uitgeklapt {
 	height: 100vh;
 }
-
-
 
 /* MAIN */
 
@@ -333,14 +340,13 @@ footer a:hover {
     font-size: 1.5rem;
   }
 
-
-    #svg {
-      width: 10rem;
-      height: auto;
-      position: absolute;
-      margin-left: 4rem;
-      margin-top: 1.9rem;
-    }
+  #svg {
+    width: 30rem;
+    height: auto;
+    position: absolute;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+}
 
   header ul li a:hover{
     border-bottom: .1rem solid black;
