@@ -1,9 +1,6 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  /* margin-left: 6rem;
-  margin-right: 6rem;
-  margin-top: 0rem; */
 }
 
 #svg {
@@ -75,6 +72,7 @@ header.uitgeklapt {
 
 /* MAIN */
 
+
 main h1 {
   padding-top: 15rem;
   font-size: 35px;
@@ -82,6 +80,7 @@ main h1 {
   font-family: 'DM Serif Display', serif;
   text-align: right;
   line-height: 4rem;
+  margin-right: 4rem;
 }
 
 .onderlijn {
@@ -94,12 +93,11 @@ main h1 {
   font-family: 'DM Serif Display', serif;
   text-align: right;
   line-height: 4rem;
+  margin-right: 6rem;
 }
 
 
 main {
-  margin-left: 6rem;
-  margin-right: 6rem;
 }
 
 /* MAIN - FILTER */
@@ -132,32 +130,18 @@ button:hover {
   font-weight: bolder;
 }
 
-
-
-
 #filters {
   margin-top: 8rem;
   margin-bottom: 3rem;
-  margin-left: 1rem;
+  margin-left: 6.5rem;
 }
 
 /* MAIN - GRID */
-
-.container {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 4rem;
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 .container div {
   height:35rem;
   width: 35rem;
 }
-
-
 
 #eerste{
   background-image: url(afb/brandingcloots2.png);
@@ -195,6 +179,8 @@ button:hover {
   background-repeat: no-repeat;
   background-position: center;
 }
+
+
 
 h2 {
       height: 100%;
@@ -310,7 +296,13 @@ footer a:hover {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 4rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
   }
+}
+
+main {
+padding: 0rem;
 }
 
 @media(min-width: 1000px) {
