@@ -5,10 +5,11 @@ body {
 
 
 #svg {
-  width: 8rem;
+  width: 22rem;
   height: auto;
   position: absolute;
-  margin-left: 1rem;
+  top:1rem;
+  margin-left: -1rem;
 }
 
 
@@ -217,13 +218,13 @@ footer a:hover {
     margin: 0;
     font-size: 1.5rem;
   }
-
+  
   #svg {
-    width: 10rem;
+    width: 25rem;
     height: auto;
     position: absolute;
-    margin-left: 4rem;
-    margin-top: 1.9rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
   }
 
   header ul li a:hover{

@@ -3,11 +3,13 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+
 #svg {
-  width: 8rem;
+  width: 22rem;
   height: auto;
   position: absolute;
-  margin-left: 1rem;
+  top:1rem;
+  margin-left: -1rem;
 }
 
 
@@ -68,136 +70,84 @@ header.uitgeklapt {
 	height: 100vh;
 }
 
+
 /* MAIN */
 
 main {
-  margin-left: 6rem;
-  margin-right: 6rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
 }
 
 h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
   width: auto;
-  padding-top: 13rem;
-  font-size: 45px;
-  margin-top: 2rem;
-  font-family: 'DM Serif Display', serif;
+  padding-top: 15rem;
+  padding-bottom: 3rem;
 }
 
-.onderlijn {
-  box-shadow: inset 0 -23px 0 #F8D1D2;
-}
-
-.sayhello, .mail {
-max-width: 40rem;
-font-size: 15px;
-line-height: 1.8rem;
-text-align: justify;
-}
-
-
-form {
-  font-size: 1.5rem;
-}
-
-button, input, select, textarea {
-  font-family: inherit;
-  font-size: 100%;
-  display: block;
-  margin: 0.5rem 0 1rem 0;}
-
-/*
-input {
-  width: auto;
-  background-color: #E8E8E8;
-  border: 0;
+.foto {
+  height: 35rem;
   width: 35rem;
-  height: 2.5rem;
-  border-radius: .2rem;
-  margin-top: 1rem;
-  font-size: 15px;
-} */
-
-input {
-border: solid;
-border-width: 2px;
-border-color: #06B9E3;
-border-radius: 0px;
-padding: .8rem;}
-
-label {
-  font-size: 15px;
+  background-image: url(afb/3me.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  border-radius: 50%;
 }
 
-#doorsturen {
+.intro p {
+  font-size: 15px;
+  text-align: justify;
+  margin-top: 2rem;
+  line-height: 23px;
+}
+
+.intro a {
+  text-decoration: none;
+  display: block;
+  padding-top: 1.4rem;
+}
+
+#naarcontact {
   background-color: #06B9E3;
-  border: none;
   color: white;
   width: 12rem;
   height: 4rem;
   text-align: center;
+  border: none;
   border-radius: .2rem;
   margin-top: 2rem;
   font-size: 1.3rem;
-}
-
-textarea {
-  border: solid;
-  border-width: 2px;
-  border-color: #06B9E3;
-  border-radius: 0px;
-  height: 10rem;
-}
-
-/*
-textarea {
-	display: block;
-	height: 10rem;
-  background-color: #E8E8E8;
-	padding-left: .5rem;
-	line-height: 1.5rem;
-	overflow: auto;
-	resize: none;
-  width: 35rem;
-  border: 0;
-  border-radius: .2rem;
-  margin-top: 1rem;
-  font-size: 15px;
-} */
-
-
-
-.sayhello {
-  margin-top: 2rem;
-}
-
-.mail {
-  margin-top: 3rem;
   margin-bottom: 3rem;
 }
 
-.social1 {
-  margin-bottom: 6rem;
-}
+main button:focus {outline:0;}
 
-  main ul {
-    display: flex;
-    font-size: 1.5rem;
+
+  .education h2, .experience h2 {
+      font-size: 45px;
+      margin-top: 2rem;
+      font-family: 'DM Serif Display', serif;
   }
-  main li {
-    margin: 0 1rem;
+
+  .education p , .experience p{
+    font-size: 15px;
+    text-align: left;
+    margin-top: 2rem;
+    line-height: 23px;
   }
-  main a {
-    text-decoration: none;
-    color: black;
-    transition-property: color;
-    transition-duration: .5s;
+
+  .onderlijn {
+    box-shadow: inset 0 -23px 0 #F8D1D2;
   }
-  main a:hover {
-    color: #999999;
-  }
+
 
 
 /* FOOTER */
+
 
 footer {
   margin-top: 6rem;
@@ -205,118 +155,163 @@ footer {
   margin-left: 6rem;
   margin-right: 6rem;
 }
+
 footer p {
   color: #999999;
   margin-top: 4rem;
   margin-bottom: 4rem;
   font-size: 1.3rem;
 }
+
 hr{
     border: 0;
     height: 0;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
+
 .socialmedia {
   position: absolute;
   bottom:0rem;
   right: 0rem;
 }
+
 footer ul {
   display: flex;
   font-size: 1.5rem;
 }
+
 footer li {
   margin: 0 1rem;
 }
+
 footer a {
   text-decoration: none;
   color: black;
   transition-property: color;
   transition-duration: .5s;
 }
+
 footer a:hover {
-  color: #06B9E3;;
+  color: #06B9E3;
 }
 
 /* MEDIA QUERIES */
 
 
-  @media(min-width: 1000px) {
+@media(min-width: 1000px) {
 
-    header {
-      background-color: white;
-      height: 13rem;
-      position: static;
-      font-size: 1.8rem;
+  header {
+    background-color: white;
+    height: 13rem;
+    position: static;
+    font-size: 1.8rem;
+  }
+
+  .hamburger {display: none;}
+  header ul li {display: inline;border: 0;margin-left: 3rem;}
+  header ul li a {color: #323232;}
+  header ul {
+    position: absolute;
+    top: 6rem;
+    right: 10rem;
+    margin: 0;
+    font-size: 1.5rem;
+  }
+
+  #svg {
+    width: 25rem;
+    height: auto;
+    position: absolute;
+    margin-left: 2rem;
+    margin-top: 1rem;
+  }
+
+  header ul li a:hover{
+    border-bottom: .1rem solid black;
+  }
+
+  .geselecteerd {
+    border-bottom: .1rem solid black;
+    border-bottom: .1rem solid black;
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 5rem;
+    grid-column-gap: 5rem;
+  }
+
+  .foto {
+    grid-column: 1;
+    grid-row: 1;
+    position: relative;
+  }
+
+  .intro {
+    grid-column: 2;
+    position: absolute;
+    left: 52rem;
+    padding-top: 0rem;
+  }
+
+  h1 {
+    padding-top: 6rem;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    max-width: 60rem;
+    padding-bottom: 0rem;
     }
 
-    .hamburger {display: none;}
-    header ul li {display: inline;border: 0;margin-left: 3rem;}
-    header ul li a {color: #323232;}
-    header ul {
-      position: absolute;
-      top: 6rem;
-      right: 10rem;
-      margin: 0;
-      font-size: 1.5rem;
-    }
+  .intro p {
+    width: auto;
+    max-width: 60rem;
+  }
 
-    #svg {
-      width: 10rem;
-      height: auto;
-      position: absolute;
-      margin-left: 4rem;
-      margin-top: 1.9rem;
-    }
+  .education {
+    grid-column: 1;
+    margin-top: 8rem;
+    display: grid;
+    grid-template-columns: 9rem 38rem;
+    grid-column-gap: 4rem;
+  }
 
-    header ul li a:hover{
-      border-bottom: .1rem solid black;
-    }
+  .datum {
+    grid-column: 1;
+  }
 
-    .geselecteerd {
-      border-bottom: .1rem solid black;
-      border-bottom: .1rem solid black;
-    }
+  .experience {
+    grid-column: 2;
+    margin-top: 8rem;
+    display: grid;
+    grid-template-columns: 9rem 38rem;
+    grid-column-gap: 4rem;
+  }
 
-    h1 {
-      padding-top: 8rem;
-      grid-column: 1;
-      margin-top: 0rem;
-    }
 
-    .container {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      /*margin-top: 13rem;*/
-      grid-row-gap: 2rem;
-    }
+}
 
-    form{
-      grid-column: 2;
-      grid-row: 2/6;
-    }
 
-    .sayhello {
-      grid-column: 1;
-      margin-top: 0rem;
-    }
+/*
 
-    .mail {
-      grid-column: 1;
-      margin-top: 1rem;
-      margin-bottom: 0rem;
-    }
+@media(min-width: 1100px) {
 
-    .social1 {
-      grid-column: 1;
-      margin-top: .5rem;
-    }
+  }
 
-    input {
-      width: 45rem;
-    }
-    textarea {
-        width: 45rem;
 
+}
+
+@media(min-width: 1200px) {
+  main p {
+    padding-top: 8rem;
+  }
+}
+
+@media(min-width: 1250px) {
+  main p {
+    padding-top: 4rem;
+  }
 }
