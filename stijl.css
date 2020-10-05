@@ -4,11 +4,11 @@ body {
 }
 
 #svg {
-  width: 20rem;
+  width: 22rem;
   height: auto;
   position: absolute;
   top:1rem;
-  margin-left: 0rem;
+  margin-left: -1rem;
 }
 
 
