@@ -153,10 +153,10 @@ button:hover {
 }
 
 #vierde{
-  background-image: url(afb/vierkantjupe2.png);
+  background-image: url(afb2/jupe.png);
 }
 #vijfde{
-  background-image: url(afb/vierkantotomat2.png);
+  background-image: url(afb2/otomat.png);
 }
 #zesde{
   background-image: url(afb/chips.png);
@@ -166,16 +166,19 @@ button:hover {
   background-image: url(afb/BCVF4.png);
 }
 #tiende{
-  background-image: url(afb/vierkantbase2.png);
+  background-image: url(afb2/base.png);
 }
 #elfde {
   background-image: url(afb/cmt3vierkant2.png);
 }
 #twaalfde {
-  background-image: url(afb/display.png);
+  background-image: url(afb2/foodfairy.png);
+}
+#dertiende {
+  background-image: url(afb/samen3.png);
 }
 
-#eerste, #tweede, #vierde, #vijfde, #zesde, #negende, #tiende, #elfde, #twaalfde {
+#eerste, #tweede, #vierde, #vijfde, #zesde, #negende, #tiende, #elfde, #twaalfde, #dertiende {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
