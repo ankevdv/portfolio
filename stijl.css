@@ -145,37 +145,32 @@ button:hover {
 }
 
 #eerste{
-  background-image: url(afb2/clootsbranding.png);
+  background-image: url(afb4/clootsbranding.jpg);
 }
 
 #tweede{
-  background-image: url(afb2/clootsrebranding.png);
+  background-image: url(afb4/clootsrebranding.jpg);
 }
 
 #vierde{
-  background-image: url(afb2/jupe.png);
+  background-image: url(afb4/jupe.jpg);
 }
 #vijfde{
-  background-image: url(afb2/otomat.png);
+  background-image: url(afb4/otomat.jpg);
 }
 #zesde{
-  background-image: url(afb2/compositie.png);
+  background-image: url(afb4/compositie.jpg);
 }
 
-#negende{
-  background-image: url(afb/BCVF4.png);
-}
 #tiende{
-  background-image: url(afb2/base.png);
+  background-image: url(afb4/base.jpg);
 }
-#elfde {
-  background-image: url(afb/cmt3vierkant2.png);
-}
+
 #twaalfde {
-  background-image: url(afb2/foodfairy.png);
+  background-image: url(afb4/foodfairy.jpg);
 }
 #dertiende {
-  background-image: url(afb2/pattern.png);
+  background-image: url(afb4/pattern.jpg);
 }
 
 #eerste, #tweede, #vierde, #vijfde, #zesde, #negende, #tiende, #elfde, #twaalfde, #dertiende {
