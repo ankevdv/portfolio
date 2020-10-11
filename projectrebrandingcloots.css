@@ -153,6 +153,10 @@ video {
   max-width: 100%;
 }
 
+.oldlogo {
+  transform: scale(.8);
+}
+
 
 /* FOOTER */
 footer {
