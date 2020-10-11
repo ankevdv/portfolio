@@ -78,6 +78,19 @@ main {
   margin-right: 6rem;
 }
 
+img {
+  max-width: 100%;
+}
+
+#eerste{
+  background-image: url(afb2/neonhi.png);
+  width: 35rem;
+  height: 35rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 h1 {
   width: auto;
   padding-top: 13rem;
@@ -93,115 +106,30 @@ h1 {
   box-shadow: inset 0 -23px 0 #F8D1D2;
 }
 
-.sayhello, .mail {
+.info p {
 max-width: 40rem;
 font-size: 15px;
 line-height: 1.8rem;
 text-align: justify;
 }
 
-
-form {
-  font-size: 1.5rem;
-}
-
-button, input, select, textarea {
-  font-family: inherit;
-  font-size: 100%;
-  display: block;
-  margin: 0.5rem 0 1rem 0;}
-
-/*
-input {
-  width: auto;
-  background-color: #E8E8E8;
-  border: 0;
-  width: 35rem;
-  height: 2.5rem;
-  border-radius: .2rem;
-  margin-top: 1rem;
-  font-size: 15px;
-} */
-
-input {
-border: solid;
-border-width: 2px;
-border-color: #06B9E3;
-border-radius: 0px;
-padding: .8rem;}
-
-label {
-  font-size: 15px;
-}
-
-#doorsturen {
-  background-color: #06B9E3;
-  border: none;
-  color: white;
-  width: 12rem;
-  height: 4rem;
-  text-align: center;
-  border-radius: .2rem;
-  margin-top: 2rem;
-  font-size: 1.3rem;
-}
-
-textarea {
-  border: solid;
-  border-width: 2px;
-  border-color: #06B9E3;
-  border-radius: 0px;
-  height: 10rem;
-}
-
-/*
-textarea {
-	display: block;
-	height: 10rem;
-  background-color: #E8E8E8;
-	padding-left: .5rem;
-	line-height: 1.5rem;
-	overflow: auto;
-	resize: none;
-  width: 35rem;
-  border: 0;
-  border-radius: .2rem;
-  margin-top: 1rem;
-  font-size: 15px;
-} */
-
-
-
 .sayhello {
   margin-top: 2rem;
 }
 
 .mail {
+  margin-bottom: 1rem;
+}
+
+.tussentitel {
   margin-top: 3rem;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
 }
 
-.social1 {
-  margin-bottom: 6rem;
+.info i {
+  padding-right: 1rem;
 }
-
-  main ul {
-    display: flex;
-    font-size: 1.5rem;
-  }
-  main li {
-    margin: 0 1rem;
-  }
-  main a {
-    text-decoration: none;
-    color: black;
-    transition-property: color;
-    transition-duration: .5s;
-  }
-  main a:hover {
-    color: #999999;
-  }
-
 
 /* FOOTER */
 
@@ -286,43 +214,10 @@ footer a:hover {
     }
 
     h1 {
-      padding-top: 8rem;
-      grid-column: 1;
-      margin-top: 0rem;
-    }
-
-    .container {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      /*margin-top: 13rem;*/
-      grid-row-gap: 2rem;
-    }
-
-    form{
-      grid-column: 2;
-      grid-row: 2/6;
-    }
-
-    .sayhello {
-      grid-column: 1;
-      margin-top: 0rem;
-    }
-
-    .mail {
-      grid-column: 1;
-      margin-top: 1rem;
-      margin-bottom: 0rem;
-    }
-
-    .social1 {
-      grid-column: 1;
-      margin-top: .5rem;
-    }
-
-    input {
-      width: 45rem;
-    }
-    textarea {
-        width: 45rem;
-
+      padding-top: 0rem;
+      margin-top: 6rem;
+  }
+  .info {
+    margin-bottom: 19rem;
+  }
 }

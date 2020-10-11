@@ -105,6 +105,10 @@ section p {
   margin-bottom: 4rem;
 }
 
+h2 {
+  font-size: 15px;
+  padding-top: .5rem;
+}
 
 h3 {
   font-size: 45px;
